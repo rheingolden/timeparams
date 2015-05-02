@@ -27,6 +27,8 @@ class extension_timeparams extends Extension {
 	public function addParam(&$context) {
 		$context['params']['next-year'] = date('Y')+1;
 		$context['params']['unix-now'] = time();
+		$context['params']['unix-now-plus-3'] = time()+(3*24*60*60);
+		$context['params']['unix-now-minus-3'] = time()-(3*24*60*60);
 		$context['params']['last-year'] = date('Y')-1;
 		$context['params']['tomorrow'] = substr(date('c', time()+24*60*60), 0, 10);
 		$context['params']['today-plus-3'] = substr(date('c', time()+3*24*60*60), 0, 10);
