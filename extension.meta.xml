@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="timeparams" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+	<name>Time Parameters entries</name>
+	<description>Adds useful time parameters to the parameters pool.</description>
+	<repo type="github">https://github.com/rheingolden/timeparams</repo>
+	<types>
+		<type>Other</type>
+	</types>
+	<authors>
+		<author>
+			<name github="rheingolden" symphony="rheingolden">Kyle McGuire</name>
+		</author>
+	</authors>
+	<releases>
+		<release version="0.1.0.1" date="2015-05-02" min="2.5.1" />
+	</releases>
+</extension>
